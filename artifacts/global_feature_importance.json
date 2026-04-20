@@ -1,0 +1,92 @@
+[
+  {
+    "feature": "net_npa_ratio",
+    "display_name": "Net NPA Ratio",
+    "mean_abs_shap": 0.019587,
+    "category": "credit"
+  },
+  {
+    "feature": "drawdown_52w_level",
+    "display_name": "Drawdown 52W Level",
+    "mean_abs_shap": 0.016865,
+    "category": "market"
+  },
+  {
+    "feature": "sma_ratio",
+    "display_name": "Sma Ratio",
+    "mean_abs_shap": 0.015433,
+    "category": "credit"
+  },
+  {
+    "feature": "price_to_book",
+    "display_name": "Price To Book",
+    "mean_abs_shap": 0.014987,
+    "category": "market"
+  },
+  {
+    "feature": "gnpa_ratio",
+    "display_name": "GNPA Ratio",
+    "mean_abs_shap": 0.014967,
+    "category": "credit"
+  },
+  {
+    "feature": "interest_coverage_ratio",
+    "display_name": "Interest Coverage Ratio",
+    "mean_abs_shap": 0.014447,
+    "category": "credit"
+  },
+  {
+    "feature": "sma_ratio_level",
+    "display_name": "Sma Ratio Level",
+    "mean_abs_shap": 0.013151,
+    "category": "credit"
+  },
+  {
+    "feature": "credit_growth_yoy",
+    "display_name": "Credit Growth YoY",
+    "mean_abs_shap": 0.012359,
+    "category": "credit"
+  },
+  {
+    "feature": "net_npa_ratio_level",
+    "display_name": "Net NPA Ratio Level",
+    "mean_abs_shap": 0.012154,
+    "category": "credit"
+  },
+  {
+    "feature": "gnpa_ratio_level",
+    "display_name": "GNPA Ratio Level",
+    "mean_abs_shap": 0.010769,
+    "category": "credit"
+  },
+  {
+    "feature": "drawdown_52w",
+    "display_name": "Drawdown 52W",
+    "mean_abs_shap": 0.010394,
+    "category": "market"
+  },
+  {
+    "feature": "repo_rate_x_credit",
+    "display_name": "Repo Rate X Credit",
+    "mean_abs_shap": 0.010189,
+    "category": "credit"
+  },
+  {
+    "feature": "credit_growth_yoy_level",
+    "display_name": "Credit Growth YoY Level",
+    "mean_abs_shap": 0.009957,
+    "category": "credit"
+  },
+  {
+    "feature": "net_npa_ratio_lag1",
+    "display_name": "Net NPA Ratio Lag1",
+    "mean_abs_shap": 0.009901,
+    "category": "credit"
+  },
+  {
+    "feature": "index_level_lag4",
+    "display_name": "Index Level Lag4",
+    "mean_abs_shap": 0.009795,
+    "category": "market"
+  }
+]

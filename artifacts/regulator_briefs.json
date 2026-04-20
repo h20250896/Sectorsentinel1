@@ -1,0 +1,2750 @@
+{
+  "auto": {
+    "sector_id": "auto",
+    "sector_name": "Auto & Auto-Anc.",
+    "quarter": "2025Q2",
+    "stress_score": 10,
+    "stress_label": "GREEN",
+    "executive_summary": "Auto & Auto-Anc. is currently rated GREEN with a stress score of 10. The model is primarily driven by Net NPA Ratio, GNPA Ratio, Price To Book. Current conditions suggest a 9.9% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 5.11,
+      "Credit Growth YoY": 9.72,
+      "52-week Drawdown": -9.38,
+      "Interest Coverage Ratio": 2.54,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 14,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 14,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 12,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 11,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 11,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 9,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 10,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 27,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 30,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 42,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 19,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 13,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 9,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 8,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 6,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 8,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 15,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 56,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 56,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 59,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 33,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 18,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 9,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 10,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 7,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 10,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 9,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 11,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 14,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 10,
+        "stress_label": "GREEN"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 2.73,
+        "shap": -0.0232,
+        "direction": "negative"
+      },
+      {
+        "feature": "gnpa_ratio",
+        "display_name": "GNPA Ratio",
+        "value": 5.11,
+        "shap": -0.0182,
+        "direction": "negative"
+      },
+      {
+        "feature": "price_to_book",
+        "display_name": "Price To Book",
+        "value": 1.68,
+        "shap": -0.0172,
+        "direction": "negative"
+      },
+      {
+        "feature": "net_npa_ratio_level",
+        "display_name": "Net NPA Ratio Level",
+        "value": 2.73,
+        "shap": -0.0165,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio",
+        "display_name": "Sma Ratio",
+        "value": 3.85,
+        "shap": -0.0162,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "fmcg",
+          "target": "auto",
+          "p_value": 0.044,
+          "lag": 1,
+          "strength": "strong"
+        },
+        {
+          "source": "metals",
+          "target": "auto",
+          "p_value": 0.0487,
+          "lag": 1,
+          "strength": "strong"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "auto",
+          "target": "metals",
+          "p_value": 0.0395,
+          "lag": 1,
+          "strength": "strong"
+        }
+      ]
+    },
+    "recommendations": [
+      "Maintain normal monitoring",
+      "Track emerging macro signals",
+      "Preserve baseline exposure limits"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "banking": {
+    "sector_id": "banking",
+    "sector_name": "Banking & Finance",
+    "quarter": "2025Q2",
+    "stress_score": 53,
+    "stress_label": "AMBER",
+    "executive_summary": "Banking & Finance is currently rated AMBER with a stress score of 53. The model is primarily driven by Net NPA Ratio, Index Level Lag4, Sma Ratio. Current conditions suggest a 53.0% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 7.55,
+      "Credit Growth YoY": 7.79,
+      "52-week Drawdown": -10.89,
+      "Interest Coverage Ratio": 1.87,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 52,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 60,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 56,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 89,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 93,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 94,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 90,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 60,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 38,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 28,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 28,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 38,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 33,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 30,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 34,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 43,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 39,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 52,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 57,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 77,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 84,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 87,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 83,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 63,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 46,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 48,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 57,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 49,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 49,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 53,
+        "stress_label": "AMBER"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 4.19,
+        "shap": -0.0205,
+        "direction": "negative"
+      },
+      {
+        "feature": "index_level_lag4",
+        "display_name": "Index Level Lag4",
+        "value": 12377.64,
+        "shap": -0.019,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio",
+        "display_name": "Sma Ratio",
+        "value": 4.71,
+        "shap": -0.0181,
+        "direction": "negative"
+      },
+      {
+        "feature": "drawdown_52w_level",
+        "display_name": "Drawdown 52W Level",
+        "value": -10.89,
+        "shap": -0.017,
+        "direction": "negative"
+      },
+      {
+        "feature": "credit_to_gdp_gap_lag1",
+        "display_name": "Credit To GDP Gap Lag1",
+        "value": -1.76,
+        "shap": -0.0169,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "real_estate",
+          "target": "banking",
+          "p_value": 0.0313,
+          "lag": 3,
+          "strength": "strong"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "banking",
+          "target": "power",
+          "p_value": 0.0418,
+          "lag": 1,
+          "strength": "strong"
+        },
+        {
+          "source": "banking",
+          "target": "infrastructure",
+          "p_value": 0.0482,
+          "lag": 1,
+          "strength": "strong"
+        },
+        {
+          "source": "banking",
+          "target": "real_estate",
+          "p_value": 0.0501,
+          "lag": 4,
+          "strength": "significant"
+        },
+        {
+          "source": "banking",
+          "target": "nbfc",
+          "p_value": 0.0513,
+          "lag": 1,
+          "strength": "significant"
+        }
+      ]
+    },
+    "recommendations": [
+      "Enhance monitoring cadence",
+      "Issue early warning memo",
+      "Tighten underwriting terms"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "fmcg": {
+    "sector_id": "fmcg",
+    "sector_name": "FMCG",
+    "quarter": "2025Q2",
+    "stress_score": 1,
+    "stress_label": "GREEN",
+    "executive_summary": "FMCG is currently rated GREEN with a stress score of 1. The model is primarily driven by Net NPA Ratio, Drawdown 52W Level, Sma Ratio. Current conditions suggest a 1.2% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 2.26,
+      "Credit Growth YoY": 7.78,
+      "52-week Drawdown": -8.14,
+      "Interest Coverage Ratio": 4.07,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 4,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 10,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 10,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 11,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 2,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 10,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 20,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 8,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 8,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 8,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 1.21,
+        "shap": -0.019,
+        "direction": "negative"
+      },
+      {
+        "feature": "drawdown_52w_level",
+        "display_name": "Drawdown 52W Level",
+        "value": -8.14,
+        "shap": -0.0179,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio",
+        "display_name": "Sma Ratio",
+        "value": 2.47,
+        "shap": -0.0171,
+        "direction": "negative"
+      },
+      {
+        "feature": "index_level_lag4",
+        "display_name": "Index Level Lag4",
+        "value": 28021.28,
+        "shap": -0.0159,
+        "direction": "negative"
+      },
+      {
+        "feature": "credit_to_gdp_gap_lag1",
+        "display_name": "Credit To GDP Gap Lag1",
+        "value": -2.37,
+        "shap": -0.0152,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "power",
+          "target": "fmcg",
+          "p_value": 0.0451,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "infrastructure",
+          "target": "fmcg",
+          "p_value": 0.0511,
+          "lag": 4,
+          "strength": "significant"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "fmcg",
+          "target": "auto",
+          "p_value": 0.044,
+          "lag": 1,
+          "strength": "strong"
+        }
+      ]
+    },
+    "recommendations": [
+      "Maintain normal monitoring",
+      "Track emerging macro signals",
+      "Preserve baseline exposure limits"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "infrastructure": {
+    "sector_id": "infrastructure",
+    "sector_name": "Infrastructure",
+    "quarter": "2025Q2",
+    "stress_score": 98,
+    "stress_label": "RED",
+    "executive_summary": "Infrastructure is currently rated RED with a stress score of 98. The model is primarily driven by Sma Ratio YoY Change, Credit Growth YoY YoY Change, Drawdown 52W YoY Change. Current conditions suggest a 98.0% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 12.31,
+      "Credit Growth YoY": 2.19,
+      "52-week Drawdown": -11.91,
+      "Interest Coverage Ratio": 1.08,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 97,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 97,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 97,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 93,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 92,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 93,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 96,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 98,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 98,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 98,
+        "stress_label": "RED"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "sma_ratio_yoy_change",
+        "display_name": "Sma Ratio YoY Change",
+        "value": -18.568,
+        "shap": -0.0347,
+        "direction": "negative"
+      },
+      {
+        "feature": "credit_growth_yoy_yoy_change",
+        "display_name": "Credit Growth YoY YoY Change",
+        "value": 181.1111,
+        "shap": -0.0341,
+        "direction": "negative"
+      },
+      {
+        "feature": "drawdown_52w_yoy_change",
+        "display_name": "Drawdown 52W YoY Change",
+        "value": 46.0353,
+        "shap": -0.0325,
+        "direction": "negative"
+      },
+      {
+        "feature": "restructured_assets_pct_yoy_change",
+        "display_name": "Restructured Assets Pct YoY Change",
+        "value": -43.9252,
+        "shap": -0.0309,
+        "direction": "negative"
+      },
+      {
+        "feature": "price_to_book_yoy_change",
+        "display_name": "Price To Book YoY Change",
+        "value": 22.2222,
+        "shap": -0.027,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "it",
+          "target": "infrastructure",
+          "p_value": 0.0459,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "power",
+          "target": "infrastructure",
+          "p_value": 0.0468,
+          "lag": 1,
+          "strength": "strong"
+        },
+        {
+          "source": "banking",
+          "target": "infrastructure",
+          "p_value": 0.0482,
+          "lag": 1,
+          "strength": "strong"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "infrastructure",
+          "target": "power",
+          "p_value": 0.0447,
+          "lag": 1,
+          "strength": "strong"
+        },
+        {
+          "source": "infrastructure",
+          "target": "real_estate",
+          "p_value": 0.045,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "infrastructure",
+          "target": "fmcg",
+          "p_value": 0.0511,
+          "lag": 4,
+          "strength": "significant"
+        }
+      ]
+    },
+    "recommendations": [
+      "Cap sector exposure",
+      "Increase provisioning buffers",
+      "Escalate to watchlist committee"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "it": {
+    "sector_id": "it",
+    "sector_name": "IT & Technology",
+    "quarter": "2025Q2",
+    "stress_score": 3,
+    "stress_label": "GREEN",
+    "executive_summary": "IT & Technology is currently rated GREEN with a stress score of 3. The model is primarily driven by Index Level Lag4, Net NPA Ratio, Credit To GDP Gap Lag1. Current conditions suggest a 2.5% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 0.76,
+      "Credit Growth YoY": 12.1,
+      "52-week Drawdown": -9.93,
+      "Interest Coverage Ratio": 5.18,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 4,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 30,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 40,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 40,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 63,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 2,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "index_level_lag4",
+        "display_name": "Index Level Lag4",
+        "value": 20835.78,
+        "shap": -0.0176,
+        "direction": "negative"
+      },
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 0.41,
+        "shap": -0.0161,
+        "direction": "negative"
+      },
+      {
+        "feature": "credit_to_gdp_gap_lag1",
+        "display_name": "Credit To GDP Gap Lag1",
+        "value": -1.52,
+        "shap": -0.0159,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio",
+        "display_name": "Sma Ratio",
+        "value": 1.64,
+        "shap": -0.0155,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio_level",
+        "display_name": "Sma Ratio Level",
+        "value": 1.64,
+        "shap": -0.0147,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "pharma",
+          "target": "it",
+          "p_value": 0.0511,
+          "lag": 2,
+          "strength": "significant"
+        },
+        {
+          "source": "telecom",
+          "target": "it",
+          "p_value": 0.0551,
+          "lag": 2,
+          "strength": "significant"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "it",
+          "target": "infrastructure",
+          "p_value": 0.0459,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "it",
+          "target": "power",
+          "p_value": 0.0516,
+          "lag": 4,
+          "strength": "significant"
+        }
+      ]
+    },
+    "recommendations": [
+      "Maintain normal monitoring",
+      "Track emerging macro signals",
+      "Preserve baseline exposure limits"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "metals": {
+    "sector_id": "metals",
+    "sector_name": "Metals & Mining",
+    "quarter": "2025Q2",
+    "stress_score": 23,
+    "stress_label": "GREEN",
+    "executive_summary": "Metals & Mining is currently rated GREEN with a stress score of 23. The model is primarily driven by PMI Services Lag1, Net NPA Ratio, GNPA Ratio. Current conditions suggest a 22.6% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 6.02,
+      "Credit Growth YoY": 6.56,
+      "52-week Drawdown": -12.15,
+      "Interest Coverage Ratio": 2.26,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 33,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 32,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 22,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 17,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 16,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 13,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 16,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 40,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 52,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 81,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 80,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 44,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 26,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 13,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 19,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 44,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 54,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 80,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 92,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 90,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 67,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 22,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 17,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 12,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 13,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 13,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 17,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 21,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 25,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 23,
+        "stress_label": "GREEN"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "pmi_services_lag1",
+        "display_name": "PMI Services Lag1",
+        "value": 52.81,
+        "shap": -0.0181,
+        "direction": "negative"
+      },
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 3.41,
+        "shap": -0.0176,
+        "direction": "negative"
+      },
+      {
+        "feature": "gnpa_ratio",
+        "display_name": "GNPA Ratio",
+        "value": 6.02,
+        "shap": -0.0171,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio",
+        "display_name": "Sma Ratio",
+        "value": 4.08,
+        "shap": -0.0166,
+        "direction": "negative"
+      },
+      {
+        "feature": "price_to_book",
+        "display_name": "Price To Book",
+        "value": 1.21,
+        "shap": -0.0154,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "auto",
+          "target": "metals",
+          "p_value": 0.0395,
+          "lag": 1,
+          "strength": "strong"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "metals",
+          "target": "auto",
+          "p_value": 0.0487,
+          "lag": 1,
+          "strength": "strong"
+        }
+      ]
+    },
+    "recommendations": [
+      "Maintain normal monitoring",
+      "Track emerging macro signals",
+      "Preserve baseline exposure limits"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "nbfc": {
+    "sector_id": "nbfc",
+    "sector_name": "NBFC",
+    "quarter": "2025Q2",
+    "stress_score": 88,
+    "stress_label": "RED",
+    "executive_summary": "NBFC is currently rated RED with a stress score of 88. The model is primarily driven by Price To Book, Current Account Deficit Pct GDP Lag2, Repo Rate Lag4. Current conditions suggest a 88.1% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 9.3,
+      "Credit Growth YoY": 7.64,
+      "52-week Drawdown": -14.91,
+      "Interest Coverage Ratio": 1.68,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 86,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 77,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 92,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 97,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 98,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 93,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 76,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 70,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 55,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 56,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 72,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 65,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 72,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 70,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 81,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 98,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 98,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 95,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 86,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 72,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 65,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 71,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 74,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 73,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 83,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 88,
+        "stress_label": "RED"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "price_to_book",
+        "display_name": "Price To Book",
+        "value": 1.49,
+        "shap": -0.0219,
+        "direction": "negative"
+      },
+      {
+        "feature": "current_account_deficit_pct_gdp_lag2",
+        "display_name": "Current Account Deficit Pct GDP Lag2",
+        "value": 2.74,
+        "shap": -0.0193,
+        "direction": "negative"
+      },
+      {
+        "feature": "repo_rate_lag4",
+        "display_name": "Repo Rate Lag4",
+        "value": 6.74,
+        "shap": -0.0183,
+        "direction": "negative"
+      },
+      {
+        "feature": "pmi_services_lag1",
+        "display_name": "PMI Services Lag1",
+        "value": 52.81,
+        "shap": -0.0182,
+        "direction": "negative"
+      },
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 4.89,
+        "shap": -0.0166,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "real_estate",
+          "target": "nbfc",
+          "p_value": 0.0465,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "banking",
+          "target": "nbfc",
+          "p_value": 0.0513,
+          "lag": 1,
+          "strength": "significant"
+        },
+        {
+          "source": "pharma",
+          "target": "nbfc",
+          "p_value": 0.0535,
+          "lag": 2,
+          "strength": "significant"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "nbfc",
+          "target": "real_estate",
+          "p_value": 0.0487,
+          "lag": 4,
+          "strength": "strong"
+        }
+      ]
+    },
+    "recommendations": [
+      "Cap sector exposure",
+      "Increase provisioning buffers",
+      "Escalate to watchlist committee"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "pharma": {
+    "sector_id": "pharma",
+    "sector_name": "Pharma & Healthcare",
+    "quarter": "2025Q2",
+    "stress_score": 2,
+    "stress_label": "GREEN",
+    "executive_summary": "Pharma & Healthcare is currently rated GREEN with a stress score of 2. The model is primarily driven by Net NPA Ratio, Sma Ratio, Drawdown 52W Level. Current conditions suggest a 1.8% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 2.69,
+      "Credit Growth YoY": 8.99,
+      "52-week Drawdown": -10.62,
+      "Interest Coverage Ratio": 3.57,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 4,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 2,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 9,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 6,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 2,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 4,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 3,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 2,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 1,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 2,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 2,
+        "stress_label": "GREEN"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 1.48,
+        "shap": -0.0201,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio",
+        "display_name": "Sma Ratio",
+        "value": 2.62,
+        "shap": -0.0186,
+        "direction": "negative"
+      },
+      {
+        "feature": "drawdown_52w_level",
+        "display_name": "Drawdown 52W Level",
+        "value": -10.62,
+        "shap": -0.0167,
+        "direction": "negative"
+      },
+      {
+        "feature": "index_level_lag4",
+        "display_name": "Index Level Lag4",
+        "value": 18960.72,
+        "shap": -0.0167,
+        "direction": "negative"
+      },
+      {
+        "feature": "price_to_book",
+        "display_name": "Price To Book",
+        "value": 2.79,
+        "shap": -0.015,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "real_estate",
+          "target": "pharma",
+          "p_value": 0.0389,
+          "lag": 3,
+          "strength": "strong"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "pharma",
+          "target": "telecom",
+          "p_value": 0.0507,
+          "lag": 1,
+          "strength": "significant"
+        },
+        {
+          "source": "pharma",
+          "target": "it",
+          "p_value": 0.0511,
+          "lag": 2,
+          "strength": "significant"
+        },
+        {
+          "source": "pharma",
+          "target": "nbfc",
+          "p_value": 0.0535,
+          "lag": 2,
+          "strength": "significant"
+        }
+      ]
+    },
+    "recommendations": [
+      "Maintain normal monitoring",
+      "Track emerging macro signals",
+      "Preserve baseline exposure limits"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "power": {
+    "sector_id": "power",
+    "sector_name": "Power & Energy",
+    "quarter": "2025Q2",
+    "stress_score": 72,
+    "stress_label": "RED",
+    "executive_summary": "Power & Energy is currently rated RED with a stress score of 72. The model is primarily driven by Net NPA Ratio, GNPA Ratio, PMI Services Lag1. Current conditions suggest a 71.7% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 7.96,
+      "Credit Growth YoY": 5.42,
+      "52-week Drawdown": -13.72,
+      "Interest Coverage Ratio": 1.71,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 64,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 42,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 45,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 62,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 84,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 94,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 96,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 96,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 83,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 65,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 47,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 38,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 43,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 39,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 42,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 45,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 62,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 95,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 98,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 98,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 84,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 71,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 73,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 68,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 72,
+        "stress_label": "RED"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 4.45,
+        "shap": -0.0179,
+        "direction": "negative"
+      },
+      {
+        "feature": "gnpa_ratio",
+        "display_name": "GNPA Ratio",
+        "value": 7.96,
+        "shap": -0.0177,
+        "direction": "negative"
+      },
+      {
+        "feature": "pmi_services_lag1",
+        "display_name": "PMI Services Lag1",
+        "value": 52.81,
+        "shap": -0.0168,
+        "direction": "negative"
+      },
+      {
+        "feature": "credit_growth_yoy_yoy_change",
+        "display_name": "Credit Growth YoY YoY Change",
+        "value": 135.6522,
+        "shap": -0.0168,
+        "direction": "negative"
+      },
+      {
+        "feature": "drawdown_52w_level",
+        "display_name": "Drawdown 52W Level",
+        "value": -13.72,
+        "shap": -0.0166,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "banking",
+          "target": "power",
+          "p_value": 0.0418,
+          "lag": 1,
+          "strength": "strong"
+        },
+        {
+          "source": "infrastructure",
+          "target": "power",
+          "p_value": 0.0447,
+          "lag": 1,
+          "strength": "strong"
+        },
+        {
+          "source": "real_estate",
+          "target": "power",
+          "p_value": 0.0447,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "it",
+          "target": "power",
+          "p_value": 0.0516,
+          "lag": 4,
+          "strength": "significant"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "power",
+          "target": "fmcg",
+          "p_value": 0.0451,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "power",
+          "target": "infrastructure",
+          "p_value": 0.0468,
+          "lag": 1,
+          "strength": "strong"
+        },
+        {
+          "source": "power",
+          "target": "real_estate",
+          "p_value": 0.0472,
+          "lag": 4,
+          "strength": "strong"
+        }
+      ]
+    },
+    "recommendations": [
+      "Cap sector exposure",
+      "Increase provisioning buffers",
+      "Escalate to watchlist committee"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "real_estate": {
+    "sector_id": "real_estate",
+    "sector_name": "Real Estate",
+    "quarter": "2025Q2",
+    "stress_score": 95,
+    "stress_label": "RED",
+    "executive_summary": "Real Estate is currently rated RED with a stress score of 95. The model is primarily driven by Sma Ratio YoY Change, Credit Growth YoY YoY Change, Drawdown 52W YoY Change. Current conditions suggest a 95.3% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 10.43,
+      "Credit Growth YoY": 4.03,
+      "52-week Drawdown": -13.1,
+      "Interest Coverage Ratio": 1.31,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 85,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 75,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 90,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 79,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 82,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 97,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 95,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 93,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 89,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 87,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 87,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 91,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 86,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 90,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 100,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 99,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 97,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 96,
+        "stress_label": "RED"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 95,
+        "stress_label": "RED"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "sma_ratio_yoy_change",
+        "display_name": "Sma Ratio YoY Change",
+        "value": -22.3377,
+        "shap": -0.0365,
+        "direction": "negative"
+      },
+      {
+        "feature": "credit_growth_yoy_yoy_change",
+        "display_name": "Credit Growth YoY YoY Change",
+        "value": 284.0183,
+        "shap": -0.0341,
+        "direction": "negative"
+      },
+      {
+        "feature": "drawdown_52w_yoy_change",
+        "display_name": "Drawdown 52W YoY Change",
+        "value": 43.093,
+        "shap": -0.0336,
+        "direction": "negative"
+      },
+      {
+        "feature": "restructured_assets_pct_yoy_change",
+        "display_name": "Restructured Assets Pct YoY Change",
+        "value": -50.6438,
+        "shap": -0.0332,
+        "direction": "negative"
+      },
+      {
+        "feature": "price_to_book_yoy_change",
+        "display_name": "Price To Book YoY Change",
+        "value": 55.5556,
+        "shap": -0.022,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "infrastructure",
+          "target": "real_estate",
+          "p_value": 0.045,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "power",
+          "target": "real_estate",
+          "p_value": 0.0472,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "nbfc",
+          "target": "real_estate",
+          "p_value": 0.0487,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "banking",
+          "target": "real_estate",
+          "p_value": 0.0501,
+          "lag": 4,
+          "strength": "significant"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "real_estate",
+          "target": "banking",
+          "p_value": 0.0313,
+          "lag": 3,
+          "strength": "strong"
+        },
+        {
+          "source": "real_estate",
+          "target": "pharma",
+          "p_value": 0.0389,
+          "lag": 3,
+          "strength": "strong"
+        },
+        {
+          "source": "real_estate",
+          "target": "power",
+          "p_value": 0.0447,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "real_estate",
+          "target": "nbfc",
+          "p_value": 0.0465,
+          "lag": 4,
+          "strength": "strong"
+        },
+        {
+          "source": "real_estate",
+          "target": "telecom",
+          "p_value": 0.0546,
+          "lag": 3,
+          "strength": "significant"
+        }
+      ]
+    },
+    "recommendations": [
+      "Cap sector exposure",
+      "Increase provisioning buffers",
+      "Escalate to watchlist committee"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  },
+  "telecom": {
+    "sector_id": "telecom",
+    "sector_name": "Telecom",
+    "quarter": "2025Q2",
+    "stress_score": 21,
+    "stress_label": "GREEN",
+    "executive_summary": "Telecom is currently rated GREEN with a stress score of 21. The model is primarily driven by Net NPA Ratio, GNPA Ratio, Index Level Lag4. Current conditions suggest a 21.3% near-term distress probability.",
+    "key_indicators": {
+      "GNPA Ratio": 5.54,
+      "Credit Growth YoY": 4.79,
+      "52-week Drawdown": -12.04,
+      "Interest Coverage Ratio": 1.97,
+      "Repo Rate": 6.01,
+      "GDP Growth YoY": 5.43
+    },
+    "score_history": [
+      {
+        "quarter": "2018Q1",
+        "stress_score": 31,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q2",
+        "stress_score": 15,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q3",
+        "stress_score": 15,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2018Q4",
+        "stress_score": 20,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q1",
+        "stress_score": 36,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q2",
+        "stress_score": 15,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2019Q3",
+        "stress_score": 45,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2019Q4",
+        "stress_score": 62,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2020Q1",
+        "stress_score": 34,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q2",
+        "stress_score": 15,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q3",
+        "stress_score": 10,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2020Q4",
+        "stress_score": 11,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q1",
+        "stress_score": 8,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q2",
+        "stress_score": 12,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q3",
+        "stress_score": 15,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2021Q4",
+        "stress_score": 14,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q1",
+        "stress_score": 17,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q2",
+        "stress_score": 18,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q3",
+        "stress_score": 18,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2022Q4",
+        "stress_score": 25,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q1",
+        "stress_score": 52,
+        "stress_label": "AMBER"
+      },
+      {
+        "quarter": "2023Q2",
+        "stress_score": 28,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q3",
+        "stress_score": 17,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2023Q4",
+        "stress_score": 9,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q1",
+        "stress_score": 16,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q2",
+        "stress_score": 13,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q3",
+        "stress_score": 20,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2024Q4",
+        "stress_score": 25,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q1",
+        "stress_score": 22,
+        "stress_label": "GREEN"
+      },
+      {
+        "quarter": "2025Q2",
+        "stress_score": 21,
+        "stress_label": "GREEN"
+      }
+    ],
+    "top_drivers": [
+      {
+        "feature": "net_npa_ratio",
+        "display_name": "Net NPA Ratio",
+        "value": 3.17,
+        "shap": -0.0229,
+        "direction": "negative"
+      },
+      {
+        "feature": "gnpa_ratio",
+        "display_name": "GNPA Ratio",
+        "value": 5.54,
+        "shap": -0.0194,
+        "direction": "negative"
+      },
+      {
+        "feature": "index_level_lag4",
+        "display_name": "Index Level Lag4",
+        "value": 13282.6,
+        "shap": -0.0192,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio",
+        "display_name": "Sma Ratio",
+        "value": 3.76,
+        "shap": -0.0189,
+        "direction": "negative"
+      },
+      {
+        "feature": "sma_ratio_level",
+        "display_name": "Sma Ratio Level",
+        "value": 3.76,
+        "shap": -0.0188,
+        "direction": "negative"
+      }
+    ],
+    "contagion_exposure": {
+      "incoming": [
+        {
+          "source": "pharma",
+          "target": "telecom",
+          "p_value": 0.0507,
+          "lag": 1,
+          "strength": "significant"
+        },
+        {
+          "source": "real_estate",
+          "target": "telecom",
+          "p_value": 0.0546,
+          "lag": 3,
+          "strength": "significant"
+        }
+      ],
+      "outgoing": [
+        {
+          "source": "telecom",
+          "target": "it",
+          "p_value": 0.0551,
+          "lag": 2,
+          "strength": "significant"
+        }
+      ]
+    },
+    "recommendations": [
+      "Maintain normal monitoring",
+      "Track emerging macro signals",
+      "Preserve baseline exposure limits"
+    ],
+    "model_version": "v1",
+    "disclaimer": "Synthetic data and model outputs are for demonstration purposes only."
+  }
+}

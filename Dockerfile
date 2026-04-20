@@ -1,27 +1,20 @@
-FROM node:20-alpine AS build
+FROM python:3.12-slim
 
 WORKDIR /app
 
-ARG VITE_API_BASE_URL=http://localhost:8000
-ENV VITE_API_BASE_URL=${VITE_API_BASE_URL}
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app
 
-COPY package.json .
-COPY tsconfig.json .
-COPY vite.config.ts .
-COPY tailwind.config.ts .
-COPY postcss.config.js .
-COPY index.html .
-COPY public ./public
-COPY src ./src
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends build-essential curl libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN npm install
-RUN npm run build
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-FROM nginx:1.27-alpine
+COPY . .
 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY --from=build /app/dist /usr/share/nginx/html
+EXPOSE 8000
 
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

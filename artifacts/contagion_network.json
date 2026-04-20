@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "auto",
+      "name": "Auto & Auto-Anc.",
+      "stress_score": 10,
+      "label": "GREEN"
+    },
+    {
+      "id": "banking",
+      "name": "Banking & Finance",
+      "stress_score": 53,
+      "label": "AMBER"
+    },
+    {
+      "id": "fmcg",
+      "name": "FMCG",
+      "stress_score": 1,
+      "label": "GREEN"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "stress_score": 98,
+      "label": "RED"
+    },
+    {
+      "id": "it",
+      "name": "IT & Technology",
+      "stress_score": 3,
+      "label": "GREEN"
+    },
+    {
+      "id": "metals",
+      "name": "Metals & Mining",
+      "stress_score": 23,
+      "label": "GREEN"
+    },
+    {
+      "id": "nbfc",
+      "name": "NBFC",
+      "stress_score": 88,
+      "label": "RED"
+    },
+    {
+      "id": "pharma",
+      "name": "Pharma & Healthcare",
+      "stress_score": 2,
+      "label": "GREEN"
+    },
+    {
+      "id": "power",
+      "name": "Power & Energy",
+      "stress_score": 72,
+      "label": "RED"
+    },
+    {
+      "id": "real_estate",
+      "name": "Real Estate",
+      "stress_score": 95,
+      "label": "RED"
+    },
+    {
+      "id": "telecom",
+      "name": "Telecom",
+      "stress_score": 21,
+      "label": "GREEN"
+    }
+  ],
+  "edges": [
+    {
+      "source": "real_estate",
+      "target": "banking",
+      "p_value": 0.0313,
+      "lag": 3,
+      "strength": "strong"
+    },
+    {
+      "source": "real_estate",
+      "target": "pharma",
+      "p_value": 0.0389,
+      "lag": 3,
+      "strength": "strong"
+    },
+    {
+      "source": "auto",
+      "target": "metals",
+      "p_value": 0.0395,
+      "lag": 1,
+      "strength": "strong"
+    },
+    {
+      "source": "banking",
+      "target": "power",
+      "p_value": 0.0418,
+      "lag": 1,
+      "strength": "strong"
+    },
+    {
+      "source": "fmcg",
+      "target": "auto",
+      "p_value": 0.044,
+      "lag": 1,
+      "strength": "strong"
+    },
+    {
+      "source": "infrastructure",
+      "target": "power",
+      "p_value": 0.0447,
+      "lag": 1,
+      "strength": "strong"
+    },
+    {
+      "source": "real_estate",
+      "target": "power",
+      "p_value": 0.0447,
+      "lag": 4,
+      "strength": "strong"
+    },
+    {
+      "source": "infrastructure",
+      "target": "real_estate",
+      "p_value": 0.045,
+      "lag": 4,
+      "strength": "strong"
+    },
+    {
+      "source": "power",
+      "target": "fmcg",
+      "p_value": 0.0451,
+      "lag": 4,
+      "strength": "strong"
+    },
+    {
+      "source": "it",
+      "target": "infrastructure",
+      "p_value": 0.0459,
+      "lag": 4,
+      "strength": "strong"
+    },
+    {
+      "source": "real_estate",
+      "target": "nbfc",
+      "p_value": 0.0465,
+      "lag": 4,
+      "strength": "strong"
+    },
+    {
+      "source": "power",
+      "target": "infrastructure",
+      "p_value": 0.0468,
+      "lag": 1,
+      "strength": "strong"
+    },
+    {
+      "source": "power",
+      "target": "real_estate",
+      "p_value": 0.0472,
+      "lag": 4,
+      "strength": "strong"
+    },
+    {
+      "source": "banking",
+      "target": "infrastructure",
+      "p_value": 0.0482,
+      "lag": 1,
+      "strength": "strong"
+    },
+    {
+      "source": "metals",
+      "target": "auto",
+      "p_value": 0.0487,
+      "lag": 1,
+      "strength": "strong"
+    },
+    {
+      "source": "nbfc",
+      "target": "real_estate",
+      "p_value": 0.0487,
+      "lag": 4,
+      "strength": "strong"
+    },
+    {
+      "source": "banking",
+      "target": "real_estate",
+      "p_value": 0.0501,
+      "lag": 4,
+      "strength": "significant"
+    },
+    {
+      "source": "pharma",
+      "target": "telecom",
+      "p_value": 0.0507,
+      "lag": 1,
+      "strength": "significant"
+    },
+    {
+      "source": "infrastructure",
+      "target": "fmcg",
+      "p_value": 0.0511,
+      "lag": 4,
+      "strength": "significant"
+    },
+    {
+      "source": "pharma",
+      "target": "it",
+      "p_value": 0.0511,
+      "lag": 2,
+      "strength": "significant"
+    },
+    {
+      "source": "banking",
+      "target": "nbfc",
+      "p_value": 0.0513,
+      "lag": 1,
+      "strength": "significant"
+    },
+    {
+      "source": "it",
+      "target": "power",
+      "p_value": 0.0516,
+      "lag": 4,
+      "strength": "significant"
+    },
+    {
+      "source": "pharma",
+      "target": "nbfc",
+      "p_value": 0.0535,
+      "lag": 2,
+      "strength": "significant"
+    },
+    {
+      "source": "real_estate",
+      "target": "telecom",
+      "p_value": 0.0546,
+      "lag": 3,
+      "strength": "significant"
+    },
+    {
+      "source": "telecom",
+      "target": "it",
+      "p_value": 0.0551,
+      "lag": 2,
+      "strength": "significant"
+    }
+  ]
+}
